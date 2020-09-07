@@ -32,7 +32,7 @@ export default function CenteredTabs() {
        <div class="navbar">
         <Tab label="Posts" href="/post" />
         <Tab label="Friends" href="/friends" />
-        <Tab label="Notifications" href="/notifications" />
+        <Tab label="Notifications" href="/notify"/>
         </div>
       </Tabs>
     </Paper>

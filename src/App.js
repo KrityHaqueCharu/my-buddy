@@ -9,11 +9,9 @@ import './App.css';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Users from './components/Users/Users';
-import Comments from './components/Comments/Comments';
-import Box from './components/Box/Box'
 import Friends from './components/Friends/Friends';
 import Details from './components/Details/Details';
-import Mat from './components/Mat/Mat';
+
 function App() {
   return (
     <div className="App">
@@ -30,13 +28,13 @@ function App() {
       <Route path="/friends">
       <Friends></Friends>
       </Route>
+      <Route path="/notify">
+      <Friends></Friends>
+      </Route>
       <Route path="/:id">
       <Details></Details>
       </Route>
-      <Route path="/comments">
-      <Comments></Comments>
-      </Route>
-      
+     
     </Switch>
 </Router>
       
